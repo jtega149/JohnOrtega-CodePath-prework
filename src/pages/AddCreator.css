@@ -1,0 +1,59 @@
+
+.add-creator {
+  max-width: 520px;
+  margin: 2.5rem auto;
+  padding: 0 1rem;
+  text-align: center;
+  color: white;
+}
+
+.add-creator h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.add-creator form {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.add-creator input,
+.add-creator textarea {
+  padding: 0.7rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 0.95rem;
+}
+
+.add-creator textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.add-creator input:focus,
+.add-creator textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.add-creator button {
+  margin-top: 0.5rem;
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.add-creator button:hover {
+  background: #1d4ed8;
+}
